@@ -14,6 +14,13 @@ body {
     src: url(fonts/made_carving_soft/MADECarvingSoftPERSONALUSE-Bold.otf);
 }
 
+@font-face {
+    font-family: 'Smile';
+    font-weight: 600;
+    src: url(fonts/made_carving_soft/MADECarvingSoftPERSONALUSE-SemiBold.otf);
+}
+
+
 p, a {
     font-family: 'Smile';
 }
@@ -30,7 +37,7 @@ p, a {
 
 .Nav_Bar {
     background-color: #162d68;
-    width: 100vw;
+    width: 100%;
     height: auto;
     display: flex;
     align-items: center;;
@@ -44,7 +51,7 @@ p, a {
     text-decoration: none;
 }
 
-.Nav_Bar a:hover {
+a:hover {
     font-size: large;
     color: #162d68;
     background-color: white;
@@ -53,9 +60,15 @@ p, a {
 #main_logo {
     width: 12vw;
     height: 22vh;
-    background-color: #7aa1ec;
-    position: absolute;
     border-radius: 15px;
+    position: absolute;
+}
+
+#logo {
+    width: 12vw;
+    height: 22vh;
+    border-radius: 15px;
+    position: relative;
 }
 
 .hero {
@@ -75,6 +88,11 @@ p, a {
     margin-left: auto;
     margin-right: auto; 
     border-radius: 30px;
+}
+
+#rd_news:hover {
+    background-color: #ffffff;
+    zoom: 110%;
 }
 
 .title_box {
@@ -125,3 +143,40 @@ p, a {
     display: flex;
     align-items: center;
   }
+
+  .bgbox {
+    background-color: #f4e7b3;
+    width: 100%;
+  }
+
+  footer {
+    background-color: #162d68;
+  }
+
+  .Foot_Bar {
+    color: #fff; 
+    text-decoration: none; 
+    padding: 1vw;
+    font-size: large;
+    margin-top: 3%;
+  }
+
+  .Foot_Bar a {
+    padding: 0.2vw;
+    font-size: large;
+    color: white;
+    text-decoration: none;
+}
+
+.Foot_Bar a:hover {
+    font-size: large;
+    color: #162d68;
+    background-color: white;
+}
+
+/* ENCONTRAR MEJOR SOLUCIÓN (SOLUCIÓN GENERAL) */
+#ig :hover {
+    font-size: 1.5rem;
+    color: #162d68;
+    background-color: white;
+}
