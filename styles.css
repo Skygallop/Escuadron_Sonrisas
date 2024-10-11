@@ -191,13 +191,6 @@ a:hover {
     background-color: white;
 }
 
-/* ENCONTRAR MEJOR SOLUCIÓN (SOLUCIÓN GENERAL) */
-#ig :hover {
-    font-size: 1.5rem;
-    color: #162d68;
-    background-color: white;
-}
-
 #forms {
     display: block;
     padding: 3%;
@@ -211,4 +204,57 @@ a:hover {
     background-color: #fff;
     color: #df9443 !important;
     zoom: 110%;
+}
+
+/* ENCONTRAR MEJOR SOLUCIÓN (SOLUCIÓN GENERAL) */
+#ig :hover {
+    font-size: 1.5rem;
+    color: #162d68;
+    background-color: white;
+}
+
+/* LANGUAGE SUPPORT DROPDOWN - PASTED*/
+
+.dropbtn {
+    background-color: #5271ff;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Smile';
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 
+        0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
 }
