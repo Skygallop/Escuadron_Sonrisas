@@ -38,7 +38,7 @@ p, a {
 }
 
 .Nav_Bar a {
-    padding: 1vw;
+    padding: 3% 1vw 3% 1vw;
     font-size: large;
     color: white;
     text-decoration: none;
@@ -86,15 +86,29 @@ a:hover {
     background-size: cover; 
     background-repeat: none;
     width: 90%; 
-    padding-top: 1%; 
-    padding-bottom: 1%; 
+    padding-top: 3%; 
+    padding-bottom: 3%; 
     margin-left: auto;
     margin-right: auto; 
     border-radius: 30px;
 }
 
-#rd_news:hover {
-    background-color: #ffffff;
+.rd_news {
+    background-image: url(images/background_images/bg_1.png); 
+    background-size: cover; 
+    background-repeat: none;
+    width: 90%; 
+    padding-top: 3%; 
+    padding-bottom: 3%; 
+    margin-left: auto;
+    margin-right: auto; 
+    border-radius: 30px;
+}
+
+
+.rd_news:hover {
+    background-image: none !important;
+    background-color: #ffffff !important;
     zoom: 110%;
 }
 
@@ -141,6 +155,10 @@ a:hover {
     align-items: center;
   }
 
+  .dot :hover {
+    zoom: 125%;
+  }
+
   .box1 {
     background-color: #f5db9a;
     display: flex;
@@ -179,7 +197,7 @@ a:hover {
   }
 
   .Foot_Bar a {
-    padding: 0.2vw;
+    padding: 2.5% 0.2vw 2.5% 0.2vw;
     font-size: large;
     color: white;
     text-decoration: none;
