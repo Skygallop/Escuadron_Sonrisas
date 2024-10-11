@@ -82,7 +82,7 @@ a:hover {
 
 
 .slogan_box {
-    background-image: url(images/bg_1.png); 
+    background-image: url(images/background_images/bg_1.png); 
     background-size: cover; 
     background-repeat: none;
     width: 90%; 
@@ -148,7 +148,7 @@ a:hover {
   }
 
   .bgbox {
-    background-image: url(images/bg_1.png); 
+    background-image: url(images/background_images/bg_1.png); 
     background-size: cover; 
     background-repeat: none;
     width: 100%;
